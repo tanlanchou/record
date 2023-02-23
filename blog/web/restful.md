@@ -60,4 +60,10 @@ get /user/abcdefg
 post /msg
 ```
 
-在 data 中表明数据
+在 data 中表明数据。
+
+这里是参考阮一峰的文章
+
+[理解RESTful架构](https://www.ruanyifeng.com/blog/2011/09/restful.html)
+
+其他文章里，对于是否加入 api 版本号之类的方式是ok的，并且强调使用状态码。
