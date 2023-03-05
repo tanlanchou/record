@@ -438,16 +438,28 @@ myC.a(1);
 ### 11. link
 
 [阮一峰 es6 装饰器](https://es6.ruanyifeng.com/#docs/decorator)
+
 [typescript 中文文档 装饰器](https://www.tslang.cn/docs/handbook/decorators.html)
+
 [Reflect Metadata typescript](https://jkchao.github.io/typescript-book-chinese/tips/metadata.html#%E5%9F%BA%E7%A1%80)
+
 [What does <T extends { new(...args: any[]): {} }>(constructor:T) mean in typescript?](https://stackoverflow.com/questions/58057916/what-does-t-extends-new-args-any-constructort-mean-in-typescr)
+
 [TypeScript 中的 Decorator & 元数据反射：从小白到专家（部分 I）(https://zhuanlan.zhihu.com/p/20297283)
+
 [What is `Reflect.decorate` in JS code transpiled from TS?](https://stackoverflow.com/questions/45165224/what-is-reflect-decorate-in-js-code-transpiled-from-ts)
+
 [tc39 Decorators](https://github.com/tc39/proposal-decorators)
+
 [typescript TS1241: Unable to resolve signature of method decorator when called as an expression](https://stackoverflow.com/questions/37694322/typescript-ts1241-unable-to-resolve-signature-of-method-decorator-when-called-a)
+
 [reflect-metadata](https://github.com/rbuckton/reflect-metadata)
+
 [Reflect Metadata](https://jkchao.github.io/typescript-book-chinese/tips/metadata.html#%E5%9F%BA%E7%A1%80)
+
 [什么是元数据？为何需要元数据？](https://www.zhihu.com/question/20679872)
+
 [元数据,阮一峰](https://www.ruanyifeng.com/blog/2007/03/metadata.html)
+
 [TypeScript装饰器完全指南](https://mirone.me/zh-hans/a-complete-guide-to-typescript-decorator/)
 
