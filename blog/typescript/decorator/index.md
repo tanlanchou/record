@@ -457,7 +457,7 @@ myC.a(1);
 
 [Reflect Metadata](https://jkchao.github.io/typescript-book-chinese/tips/metadata.html#%E5%9F%BA%E7%A1%80)
 
-[什么是元数据？为何需要元数据？](https://www.zhihu.com/question/20679872)
+[什么是元数据？为何需要元数据?](https://www.zhihu.com/question/20679872)
 
 [元数据,阮一峰](https://www.ruanyifeng.com/blog/2007/03/metadata.html)
 
