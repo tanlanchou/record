@@ -1,5 +1,7 @@
+import { myTestA, myTestB } from "./other";
+
 class a {
-  name: "aaaa"
+  name: "aaaa";
   sayName() {
     console.log(this.name);
   }
@@ -11,6 +13,8 @@ class b extends a {
   }
 
   sayName(): void {
-      console.log("b say name" + this.name);
+    console.log("b say name" + this.name);
   }
 }
+
+console.log(myTestB);
