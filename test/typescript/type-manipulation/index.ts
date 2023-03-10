@@ -229,7 +229,7 @@ let L4: LazyPerson = {
 
 console.log(L4);
 
-type Fruits = "apple" | "banana" | 'peach' | 'orange';
+type Fruits = "apple" | "banana" | "peach" | "orange";
 type DislikeFruits = "apple" | "banana";
 
 type T21 = "apple" extends "apple" | "banana" ? never : "apple";
@@ -237,18 +237,17 @@ type T22 = "banana" extends "apple" | "banana" ? never : "banana";
 type T23 = "peach" extends "apple" | "banana" ? never : "peach";
 type T24 = "orange" extends "apple" | "banana" ? never : "orange";
 
-
 type T25 = Extract<Fruits, DislikeFruits>;
 
 interface IPerson {
-  name: string,
-  age: number,
-  sex: 0 | 1,
+  name: string;
+  age: number;
+  sex: 0 | 1;
 }
 
 interface IMan {
-  name: string,
-  age: number,
+  name: string;
+  age: number;
 }
 
 type T26 = Exclude<IPerson, IMan>;
@@ -256,16 +255,32 @@ type T27 = Extract<IPerson, IMan>;
 
 // 原始类型
 interface TState {
-	name: string;
-	age: number;
-	like: string[];
+  name: string;
+  age: number;
+  like: string[];
 }
 // 如果我只想要name和age怎么办，最粗暴的就是直接再定义一个（我之前就是这么搞得）
 interface TSingleState {
-	name: string;
-	age: number;
+  name: string;
+  age: number;
 }
 // 这样的弊端是什么？就是在Tstate发生改变的时候，TSingleState并不会跟着一起改变，所以应该这么写
-interface TSingleState extends Pick<TState, "name" | "age"> {};
+interface TSingleState extends Pick<TState, "name" | "age"> {}
 
 type T28 = Pick<TState, "name" | "age">;
+
+type T30 = {
+  name: string;
+  age: number;
+  like: string[];
+};
+
+type T29<T, U> = {
+  [P in keyof T]: T[P];
+};
+
+interface ICommonMobileFunc {
+  sms(ph: number, text: string): void;
+  call(ph: number): void;
+}
+

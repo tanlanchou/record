@@ -4,10 +4,12 @@
 ### typescript
 
 1. [Typescript 基本语法](blog/typescript/baseTypescript.md)
-2. [TypeScript装饰器](blog/typescript/decorator/index.md)
+2. [TypeScript 装饰器](blog/typescript/decorator/index.md)
 3. [TypeScript Mixin](blog/typescript/mixin/index.md)
 4. [TypeScript 三斜杠指令](blog/typescript/triple-slash-directives/index.md)
 5. [TypeScript 泛型](blog/typescript/type-manipulation/index.md)
+6. [TypeScript ConstructSignature](blog/typescript/construct/index.md)
+7. [typescript infer](blog/typescript/infer/index.md)
 
 ### javascript
 
